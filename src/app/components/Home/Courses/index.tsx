@@ -150,7 +150,7 @@ const NamesList = () => {
                 : 'text-black/40') +
               ' pb-2 text-lg hidden sm:block hover:cursor-pointer'
             }>
-            Web Development
+            Game Design
           </button>
           <button
             onClick={() => setSelectedButton('mobiledevelopment')}
@@ -161,7 +161,7 @@ const NamesList = () => {
                 : 'text-black/40') +
               ' pb-2 text-lg hidden sm:block hover:cursor-pointer'
             }>
-            Mobile Development
+            Web Design
           </button>
           <button
             onClick={() => setSelectedButton('datascience')}
@@ -172,7 +172,7 @@ const NamesList = () => {
                 : 'text-black/40') +
               ' pb-2 text-lg hidden sm:block hover:cursor-pointer'
             }>
-            Data Science
+            App Design
           </button>
           <button
             onClick={() => setSelectedButton('cloudcomputing')}
@@ -183,7 +183,7 @@ const NamesList = () => {
                 : 'text-black/40') +
               ' pb-2 text-lg hidden sm:block hover:cursor-pointer'
             }>
-            Cloud Computing
+            Business
           </button>
 
           {/* FOR MOBILE VIEW */}

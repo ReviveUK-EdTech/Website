@@ -10,11 +10,10 @@ const Banner = () => {
         <div className='container'>
           <div className='flex flex-col gap-4 text-center'>
             <h1 className='leading-tight font-bold tracking-tight max-w-4xl mx-auto'>
-              Advance your engineering skills with our courses
+            Build STEAM skills
             </h1>
             <p className='text-lg leading-8 text-black'>
-              Build skills with our courses and mentor from world-class
-              companies.
+              Gain secure employment
             </p>
             <div className='backdrop-blur-md bg-white/30 border border-white/30 rounded-lg shadow-lg p-6 w-fit mx-auto'>
               <div className='flex items-center justify-center gap-8'>
@@ -57,7 +56,7 @@ const Banner = () => {
                   />
                 </div>
                 <div>
-                  <div className='flex justify-center sm:justify-start'>
+                  {/*<div className='flex justify-center sm:justify-start'>
                     <h3 className='text-2xl font-semibold mr-2'>4.6</h3>
                     <Image
                       src={'/images/banner/Stars.svg'}
@@ -66,9 +65,9 @@ const Banner = () => {
                       height={32}
                       className='w-[60%]'
                     />
-                  </div>
+                  </div>*/}
                   <div>
-                    <h3 className='text-sm'>Rated by 25k on google.</h3>
+                    <h3 className='text-sm'>Driven by community</h3>
                   </div>
                 </div>
               </div>
