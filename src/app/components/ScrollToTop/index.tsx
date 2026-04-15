@@ -31,14 +31,14 @@ export default function ScrollToTop() {
 
   return (
     <div className='fixed bottom-8 right-8 z-999'>
-      <div className='flex items-center gap-2.5'>
+      {/*<div className='flex items-center gap-2.5'>
         <Link
           href={
             'https://getnextjstemplates.com/products/si-educational-free-nextjs-landing-page-template'
           }
           target='_blank'
           className='hidden lg:block bg-primary text-white hover:bg-darkmode text-sm px-4 py-3.5 leading-none rounded-lg font-medium text-nowrap'>
-          Download Now
+          Chat Now
         </Link>
         {isVisible && (
           <div
@@ -48,7 +48,7 @@ export default function ScrollToTop() {
             <span className='mt-[6px] h-3 w-3 rotate-45 border-l border-t border-white'></span>
           </div>
         )}
-      </div>
+      </div>*/}
     </div>
   )
 }

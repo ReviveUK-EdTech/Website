@@ -93,13 +93,13 @@ const Header: React.FC = () => {
             ))}
           </nav>
           <div className='flex items-center gap-4'>
-            <button
+            {/*<button
               className='hidden lg:block bg-transparent text-primary border hover:bg-primary border-primary hover:text-white duration-300 px-6 py-2 rounded-lg hover:cursor-pointer'
               onClick={() => {
                 setIsSignInOpen(true)
               }}>
               Sign In
-            </button>
+            </button>*/}
             {isSignInOpen && (
               <div className='fixed top-0 left-0 w-full h-full bg-black/50 flex items-center justify-center z-50'>
                 <div
@@ -120,13 +120,13 @@ const Header: React.FC = () => {
                 </div>
               </div>
             )}
-            <button
+            {/*<button
               className='hidden lg:block bg-primary text-white text-base font-medium hover:bg-transparent duration-300 hover:text-primary border border-primary px-6 py-2 rounded-lg hover:cursor-pointer'
               onClick={() => {
                 setIsSignUpOpen(true)
               }}>
               Sign Up
-            </button>
+            </button>*/}
             {isSignUpOpen && (
               <div className='fixed top-0 left-0 w-full h-full bg-black/50 flex items-center justify-center z-50'>
                 <div
