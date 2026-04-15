@@ -38,7 +38,7 @@ const Footer = () => {
             </div>
             <p className='text-white text-lg font-medium leading-7'>
               {' '}
-              Level up your skills, and get dream <br /> job with passion.{' '}
+              ReviveUK EdTech CIC  <br /> Community Interest Company <br /> Registered in England and Wales <br /> Registration no. 17146868 {' '}
             </p>
             <div className='flex gap-4'>
               <Link
@@ -129,14 +129,7 @@ const Footer = () => {
       </div>
       <div className='py-3'>
         <h3 className='text-center text-white/60'>
-          @2025 - All Rights Reserved by{' '}
-          <Link
-            href='https://adminmart.com/'
-            target='_blank'
-            className='hover:text-white'>
-            {' '}
-            GetNextJs Templates.com
-          </Link>
+          @2025 - All Rights Reserved by ReviveUK EdTech CIC{' '}
         </h3>
       </div>
     </div>
